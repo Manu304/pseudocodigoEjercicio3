@@ -8,6 +8,7 @@ public class Ejercicio3Parte2 {
         int factorial = 1;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese un numero entero para calcular su factorial: ");
+        num = scanner.nextInt();
         if (num > 0){
             while(num > 1){
                 factorial *= num;
